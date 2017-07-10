@@ -47,3 +47,7 @@ For posts:
 ```
 <?php (article_custom_field('UniqueKey')?>
 ```
+Do this:
+<?= page_custom_field('UniqueKey') ?>
+or
+<?php echo page_custom_field('UniqueKey'); ?>
